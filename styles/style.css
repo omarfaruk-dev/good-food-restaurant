@@ -114,7 +114,6 @@ body {
 }
 .card span {
   border-radius: 8px;
-
   background: rgba(82, 195, 3, 0.15);
   padding: 8px 22px;
   font-size: 20px;
@@ -157,22 +156,75 @@ body {
 }
 .about-us-content p {
   color: rgb(16, 16, 16);
-font-size: 20px;
-}
-.about-us-content hr{
-  border: 0.2px solid gray;
-  width: 100%;
+  font-size: 20px;
+  margin-bottom: 16px;
   opacity: 0.6;
 
 }
-.about-us-section h4{
+.about-us-content hr {
+  border: 0.2px solid gray;
+  width: 100%;
+  opacity: 0.6;
+}
+.about-us-section h4 {
   color: rgb(16, 16, 16);
-font-size: 32px;
-font-weight: 600;
-line-height: 38px;
-text-align: center;
-opacity: 0.7;
-margin: 20px 0px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 20px 0px;
+}
+.about-us .social-icon {
+  margin-top: 32px;
+}
+.about-us .social-icon img {
+  margin: 0 15px;
+}
+   .footer-content {
+    margin-top: 100px;
+    position: relative;
+   }
+   .footer-content .bg-img{
+    opacity: 0.1;
+    height: 661px;
+   }
+   footer .footer-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 45%;
+    text-align: center;
+   }
+footer h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 20px 0px;
+}
+footer p {
+  font-size: 20px;
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+.footer-social-icon{
+  margin-top: 32px;
+  text-align: center;
 
 }
-
+.footer-social-icon a{
+  margin: 0 20px;
+}
+.footer hr{
+  border: 0.2px solid gray;
+  opacity: 0.6;
+}
